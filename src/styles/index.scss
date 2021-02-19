@@ -1,3 +1,59 @@
-/* 
-    General Styles
-*/
+body{
+background-image: url("https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg");    
+}
+.home{
+display: flex; 
+flex-direction: row; 
+flex-wrap: wrap;
+}
+.groupOfCards{
+display: flex;
+flex-direction: row;
+overflow-x: scroll;	
+}
+.singleCard{
+display: flex;
+flex-direction: row;
+max-Width: 18rem;
+margin: 10px;
+}
+.cardWidth{
+width: 18rem;  
+}
+.linkAndLike {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+.detailContainer{
+max-width: 1000px;
+display: flex;
+flex-direction: column;
+align-self: center;
+}
+h3{
+color: white;
+margin-top: 10px;
+margin-left:10px;
+}
+.nextAndPrevious{
+color: white;
+cursor: pointer;
+}
+.detailText{
+color: white;
+}
+.heartFavorite{
+color: white;
+font-size: 15px;
+transition: font-size 2s;
+}
+.heartFavorite:hover{
+color: black;
+font-size: 25px;
+}
+.likeButton{
+width: 40px; 
+height: 40px;  
+}
+
